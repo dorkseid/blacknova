@@ -1,0 +1,297 @@
+{
+  "settings": {
+    "name": "BLACK NOVA-",
+    "currentPage": "Black Nova.html",
+    "versionFirst": "4.0.14",
+    "uniqCompNum": 27,
+    "versionPublish": "4.7.5",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#34347a",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false
+      },
+      "additionalSetColors": [
+        "#34347a"
+      ]
+    },
+    "siteFonts": [],
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/photo-1502736842968-bcaab72d0700.jpeg-128x227.png",
+    "noImageResize": "",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "Black Nova.html": {
+      "settings": {
+        "main": true,
+        "title": "BLACK NOVA",
+        "meta_descr": "Null and void, move on",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/10x10ft-dark-color-space-blue-sky-universe-clouds-stars-glitter-spots-custom-photo-studio-backdrop-background.jpg-640x640q70.jpg-.webp-640x6400.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">BLACK NOVA</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\"></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobirise.com\">&nbsp;</a></div>\n    </div>\n\n</section>",
+          "_cid": "rggKF16ggT",
+          "_anchor": "header1-i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "margin-bottom": "20px",
+              "position": "relative",
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column",
+              "min-width": "0",
+              "word-wrap": "break-word",
+              "background-clip": "border-box",
+              "border-radius": ".25rem",
+              "width": "100%",
+              "min-height": "1px"
+            },
+            ".card-title": {
+              "margin": "0"
+            },
+            ".card-box": {
+              "padding-top": "2rem"
+            },
+            "amp-img": {
+              "width": "100%"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features1",
+          "_customHTML": "<section class=\"features1 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/purple-370132_960_720.png-960x616.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/img-20190127-085335.jpg-520x538.jpg\" layout=\"responsive\" width=\"260\" height=\"269\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-20190127-085335.jpg-520x538.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Fusion reactors are expensive to make and operate,what's even more expensive is helium3,an allotrope of helium the best candidate for fusion energy as it doesn't leave harmful radiation in its wake.Helium3 is very rare on earth, the earth's magnetic field deflects into outer space,the little that is found on earth is as a result of nuclear warhead manufacturing, we are not allowed to make nuclear weapons so we go for the next best thing,the moon doesn't have a magnetic field so the helium3 made by the sun deposits directly on the surface, after millions of years of depositing, the moon has vast reserves of helium3,for this reason we are planning to explore the lunar surface for helium3 to use in our new smaller fusion reactor that is quite efficient and inexpensive.</p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/img-20190127-012447.jpg-520x291.jpg\" layout=\"responsive\" height=\"146\" width=\"260.89347079037805\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-20190127-012447.jpg-520x291.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">The main goal of black nova is to make the process of making energy clean and safe in order to avoid a future where earth shares a fate &nbsp;same as planet Venus, when earth's temperatures rise carbon will be cooked out of the rocks and store more heat and overtime the oceans will evaporate and store more heat making the earth unlivable.That's the last thing anyone wants.</p>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "rggKIMst91",
+          "_anchor": "features1-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "margin-bottom": "20px",
+              "position": "relative",
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column",
+              "min-width": "0",
+              "word-wrap": "break-word",
+              "background-clip": "border-box",
+              "border-radius": "0",
+              "width": "100%",
+              "min-height": "1px",
+              ".btn": {
+                "margin": ".4rem 4px !important"
+              }
+            },
+            ".card-title": {
+              "margin": "0",
+              "& when not (@showText)": {
+                "padding-bottom": "10px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            },
+            ".card-box": {
+              "padding-top": "2rem"
+            },
+            "amp-img": {
+              "width": "100%"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features2",
+          "_customHTML": "<section class=\"features2 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- <input type=\"checkbox\" title=\"Show Lines\" name=\"showLines\" checked> -->\n        <!-- <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#efefef\" condition=\"showLines\"> -->\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/purple-370132_960_720.png-960x616.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/venusdemilo-56aaa7ee5f9b58b7d008d232.jpg-238x400.jpg\" layout=\"responsive\" width=\"260.015\" height=\"437\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/venusdemilo-56aaa7ee5f9b58b7d008d232.jpg-238x400.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\"Looks like someone has a crush\"-with the recent attention planet mars has been getting people have seemingly forgotten that there's a planet similar to earth,well...apart from the fact that it has 90 times the atmosphere of earth, sulphuric rain,metallic snow,led melting temperatures,it is basically the embodiment of hell but the clouds are quite interesting, proposals for sending an Ariel probe have been approved and are in the planning phase,if all goes well we could see an experimental habitat floating in the dense clouds of carbon dioxide.Planet Venus is by all standards better than Planet Mars.</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\"></a></div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/screenshot-2019-01-27-10-00-16.png-480x800.png\" layout=\"responsive\" height=\"433\" width=\"259.8\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/screenshot-2019-01-27-10-00-16.png-480x800.png\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\"Here's to never using chemical rockets again\"after a year and half of high voltage risks and research,we can finally say...Newton be damned.a variant EM drive has been successfully tested with force output of 5000 Newtons,unlike the Chinese touted EM drive,ours doesn't use microwaves or copper and/or brass,it instead uses a shorter electromagnetic wave on a doped carbon superconducting cone.</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/screenshot-2019-01-27-09-36-07.png-480x800.png\" layout=\"responsive\" height=\"433\" width=\"259.8\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/screenshot-2019-01-27-09-36-07.png-480x800.png\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Yes,we are hiring, with currently 253 personnel it would be an understatement to say we are spread too thin,expertise from computer scientists to material scientists are needed but only applicants from Kenya and the east African region will be considered, though highly unlikely,we may also poach some already established scientists from other agencies (wink*)</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\"></a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/screen-shot-2015-04-27-at-09.56.43.png-520x327.png\" layout=\"responsive\" height=\"164\" width=\"260.7951070336391\" alt=\"Mobirise\">\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2015-04-27-at-09.56.43.png-520x327.png\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Warp drive anyone?....yeah ....we don't have that,... Yet....</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black\" href=\"https://mobirise.com\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "rggKGMP0iR",
+          "_anchor": "features2-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "background-color": "@bgColor",
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/moon-rotating-full-220px-1.gif\" layout=\"responsive\" width=\"320\" height=\"320\" alt=\"Mobirise\">\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/moon-rotating-full-220px-1.gif\" alt=\"Mobirise\" title=\"\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rggKfGG4lZ",
+          "_anchor": "image1-h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem",
+              "text-align": "right"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/nebula-eagle-ii-large.jpg-480x4801.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">FUTURE MISSIONS AND ASPIRATIONS</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rggOIbuoDA",
+          "_anchor": "content19-l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
+            },
+            ".wrapper": {
+              "text-align": "center"
+            },
+            ".amp-iconfont": {
+              "padding": "1rem",
+              "margin": ".5rem",
+              "background": "@iconsBg",
+              "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
+              "font-size": "~\"@{iconsSize}rem\""
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"7\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#000000\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-youtube fa\"></span>\n            </a>\n            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n            </a>\n            <a href=\"https://plus.google.com/u/0/+Mobirise/posts\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-google-plus fa\"></span>\n            </a>\n            <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-linkedin-square fa\"></span></a>\n            <a href=\"https://www.pinterest.com/mobirise/\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-pinterest-square fa\"></span>\n            </a>\n            <a href=\"https://instagram.com/mobirise/\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-instagram fa\"></span>\n            </a>\n            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-twitter fa\"></span>\n            </a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rggQ72pn1c",
+          "_anchor": "social-follow-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\"></p>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "margin": "0",
+              "color": "#ffffff"
+            }
+          },
+          "_cid": "rggK7uEkY6",
+          "_anchor": "footer1-g",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
